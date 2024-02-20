@@ -8,6 +8,7 @@ class ContactsController < ApplicationController
 
   def new
     @contact = Contact.new
+   
     # render contacts/new view with new Contact form
   end
 
